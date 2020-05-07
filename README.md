@@ -3,8 +3,8 @@ How do we build and run it?
 <b>mvn clean test spring-boot:run <b>
 
 # What tools did you use?
-spring-boot
-lombok - to have more readable and clean code
+spring-boot <br>
+lombok - to have more readable and clean code<br>
 swagger - to generate API documantation with very easy and powerfull interface to use and test by team.(like frontend team or other teams that use service)
 javamelody - for monitoring the service and api calls
 
