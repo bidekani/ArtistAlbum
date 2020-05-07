@@ -6,10 +6,9 @@ import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
 @EnableCaching
-public class KaramatApplication {
+public class ViaplayTest {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KaramatApplication.class, args);
+		SpringApplication.run(ViaplayTest.class, args);
 	}
-
 }

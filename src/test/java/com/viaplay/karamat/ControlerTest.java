@@ -27,8 +27,7 @@ import com.viaplay.karamat.model.Album;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-//@WebMvcTest(MusicResource.class)
-public class IntegrationTest {
+public class ControlerTest {
 
 	@Autowired
 	private MockMvc mockMvc;

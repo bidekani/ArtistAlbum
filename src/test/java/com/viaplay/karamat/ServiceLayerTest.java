@@ -23,7 +23,7 @@ import com.viaplay.karamat.model.Resource;
 import com.viaplay.karamat.model.ResourceUrl;
 
 @RunWith(MockitoJUnitRunner.class)
-public class KaramatApplicationTests {
+public class ServiceLayerTest {
 
 	@InjectMocks
 	ArtistHandler handler;
@@ -42,9 +42,9 @@ public class KaramatApplicationTests {
 		List<Resource> relations = new ArrayList<>();
 		MusicBrainz musicBrainz = new MusicBrainz();
 
-		Album alb1 = new Album("", "", "");
-		Album alb2 = new Album("", "", "");
-		Album alb3 = new Album("", "", "");
+		Album alb1 = new Album("1", "11", "111");
+		Album alb2 = new Album("2", "22", "222");
+		Album alb3 = new Album("3", "33", "333");
 
 		releaseGroups.add(alb1);
 		releaseGroups.add(alb2);

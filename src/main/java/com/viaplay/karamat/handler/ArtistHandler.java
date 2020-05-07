@@ -52,7 +52,7 @@ public class ArtistHandler {
 		throw new NoResourceException("Can Not Read Profile from given URL");
 	}
 
-	@Scheduled(cron = "0 57 21 ? * WED")
+	@Scheduled(cron = "0 45 23 ? * SAT")
 	@CacheEvict(value = "artistCache", allEntries = true)
 	protected void clearCache() {
 		log.info("cach cleared.");

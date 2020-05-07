@@ -5,9 +5,6 @@ import java.util.Collections;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-import org.springframework.web.filter.CorsFilter;
 
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
@@ -35,8 +32,8 @@ public class SpringFoxConfig {
     }
 
     private ApiInfo getApiInfo() {
-        return new ApiInfo("LUNA INTEGRATION services", "LUNA INTEGRATION  APII", "0.1.1", null,
-                           new Contact("Keramat ", null, "keramatun@gmail.com"), null, null, Collections.emptyList());
+        return new ApiInfo("VIAPLAY TEST API services", "ARTIST ALBUM LIST", "1.0.0", null,
+                           new Contact("Karamat ", null, "keramatun@gmail.com"), null, null, Collections.emptyList());
     }
     
 //   @Bean
